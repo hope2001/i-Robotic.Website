@@ -161,63 +161,63 @@ export default function App({ Component, pageProps }) {
 
   });
 
-  useEffect(() => {
+  // useEffect(() => {
 
-  /**
-   * Mobile nav toggle
-   */
-  const mobileNavToogle = document.querySelector('.mobile-nav-toggle');
-  if (mobileNavToogle) {
-    alert('it enter')
-    mobileNavToogle.addEventListener('click', function(event) {
-      event.preventDefault();
+  // /**
+  //  * Mobile nav toggle
+  //  */
+  // const mobileNavToogle = document.querySelector('.mobile-nav-toggle');
+  // if (mobileNavToogle) {
+  //   // alert('it enter')
+  //   mobileNavToogle.addEventListener('click', function(event) {
+  //     event.preventDefault();
 
-      document.querySelector('body').classList.toggle('mobile-nav-active');
+  //     document.querySelector('body').classList.toggle('mobile-nav-active');
 
-      this.classList.toggle('bi-list');
-      this.classList.toggle('bi-x');
-    });
+  //     this.classList.toggle('bi-list');
+  //     this.classList.toggle('bi-x');
+  //   });
 
-        /**
-    //  * Mobile nav toggle
-    //  */
-    //     const mobileNavShow = document.querySelector(".mobile-nav-show");
-    //     const mobileNavHide = document.querySelector(".mobile-nav-hide");
+  //       /**
+  //    * Mobile nav toggle
+  //    */
+  //       const mobileNavShow = document.querySelector(".mobile-nav-show");
+  //       const mobileNavHide = document.querySelector(".mobile-nav-hide");
     
-    //     document.querySelectorAll(".mobile-nav-toggle").forEach((el) => {
-    //       el.addEventListener("click", function (event) {
-    //         event.preventDefault();
-    //         mobileNavToogle();
-    //       });
-    //     });
+  //       document.querySelectorAll(".mobile-nav-toggle").forEach((el) => {
+  //         el.addEventListener("click", function (event) {
+  //           event.preventDefault();
+  //           mobileNavToogle();
+  //         });
+  //       });
     
-    //     function mobileNavToogle() {
-    //       document.querySelector("body").classList.toggle("mobile-nav-active");
-    //       mobileNavShow.classList.toggle("d-none");
-    //       mobileNavHide.classList.toggle("d-none");
-    //     }
-  }
+  //       function mobileNavToogle() {
+  //         document.querySelector("body").classList.toggle("mobile-nav-active");
+  //         mobileNavShow.classList.toggle("d-none");
+  //         mobileNavHide.classList.toggle("d-none");
+  //       }
+  // }
 
-  /**
-   * Toggle mobile nav dropdowns
-   */
-  const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
+  // /**
+  //  * Toggle mobile nav dropdowns
+  //  */
+  // const navDropdowns = document.querySelectorAll('.navbar .dropdown > a');
 
-  navDropdowns.forEach(el => {
-    el.addEventListener('click', function(event) {
-      if (document.querySelector('.mobile-nav-active')) {
-        event.preventDefault();
-        this.classList.toggle('active');
-        this.nextElementSibling.classList.toggle('dropdown-active');
+  // navDropdowns.forEach(el => {
+  //   el.addEventListener('click', function(event) {
+  //     if (document.querySelector('.mobile-nav-active')) {
+  //       event.preventDefault();
+  //       this.classList.toggle('active');
+  //       this.nextElementSibling.classList.toggle('dropdown-active');
 
-        let dropDownIndicator = this.querySelector('.dropdown-indicator');
-        dropDownIndicator.classList.toggle('bi-chevron-up');
-        dropDownIndicator.classList.toggle('bi-chevron-down');
-      }
-    })
-  });
+  //       let dropDownIndicator = this.querySelector('.dropdown-indicator');
+  //       dropDownIndicator.classList.toggle('bi-chevron-up');
+  //       dropDownIndicator.classList.toggle('bi-chevron-down');
+  //     }
+  //   })
+  // });
 
-  },[]);
+  // },[]);
 
 
   useEffect(() => {
