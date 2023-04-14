@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { TbCertificate } from 'react-icons/tb';
 
 function Banner() {
     return ( 
@@ -8,10 +9,10 @@ function Banner() {
           <img src="assets/img/hero1.png" className="img-fluid animated"/>
           {/* <img src="assets/img/hero-carousel/hero-carousel-3.svg" className="img-fluid animated"/> */}
           <h2>Bienvenue sur <span> I-ROBOTICS</span></h2>
-          <p>Pionnier des solutions de drones.</p>
+          <p><b>Pionnier des solutions de drones:</b> technologie de pointe, livraison rapide & sécurité accrue.</p>
           <div className="d-flex">
-            <Link href="#about" className="btn-get-started scrollto">A Propos</Link>
-            <Link href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Watch Video</span></Link>
+            <Link href="/services" className="btn-get-started" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px'}}>Nos Offres <TbCertificate style={{fontSize: '20px'}} /> </Link>
+            <Link href="https://www.youtube.com/watch?v=eG1kJk4nJyU" target="blank" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Démonstration</span></Link>
           </div>
         </div>
       </section>

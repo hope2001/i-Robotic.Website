@@ -29,14 +29,13 @@ function Client() {
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
     >
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/client-2.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/client-1.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/client-3.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/client-4.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/client-5.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/client-6.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/client-7.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/client-8.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/bollore.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/hbi.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/normat.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/labourd.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/siraga.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/uac.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/sobebra.png" className="img-fluid" alt=""/></div></SwiperSlide>
 </Swiper>
               </div>
             </div>

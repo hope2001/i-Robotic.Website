@@ -5,8 +5,8 @@ function About() {
           <div className="container" data-aos="fade-up">
     
             <div className="section-header">
-              <h2>About Us</h2>
-              <p>Architecto nobis eos vel nam quidem vitae temporibus voluptates qui hic deserunt iusto omnis nam voluptas asperiores sequi tenetur dolores incidunt enim voluptatem magnam cumque fuga.</p>
+              <h2>INSPECTIONS ROBOTICS LABS</h2>
+              <p>Nous sommes une entreprise basée au Bénin qui, depuis trois ans, fournit des services d&apos;acquisition de données géographiques (SIG), d&apos;inspections industrielles et d&apos;imagerie aérienne en utilisant des drones et intégrant l&apos;intelligence artificielle à la robotiques.</p>
             </div>
     
             <div className="row g-4 g-lg-5" data-aos="fade-up" data-aos-delay="200">
@@ -18,13 +18,13 @@ function About() {
               </div>
     
               <div className="col-lg-7">
-                <h3 className="pt-0 pt-lg-5">Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
+                <h3 className="pt-0 pt-lg-5">A IROBOTICS Labs, nous aspirons à l&apos;excellence en permanence !</h3>
     
                 {/* <!-- Tabs --> */}
                 <ul className="nav nav-pills mb-3">
-                  <li><a className="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a></li>
-                  <li><a className="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a></li>
-                  <li><a className="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a></li>
+                  <li><a className="nav-link active" data-bs-toggle="pill" href="#tab1" style={{paddingLeft: '15px', paddingRight: '15px'}}>Histoire</a></li>
+                  <li><a className="nav-link" data-bs-toggle="pill" href="#tab2" style={{paddingLeft: '15px', paddingRight: '15px'}}>Mission</a></li>
+                  <li><a className="nav-link" data-bs-toggle="pill" href="#tab3" style={{paddingLeft: '15px', paddingRight: '15px'}}>Vision</a></li>
                 </ul>
                 {/* <!-- End Tabs --> */}
     
@@ -33,78 +33,54 @@ function About() {
     
                   <div className="tab-pane fade show active" id="tab1">
     
-                    <p className="fst-italic">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-                    </div>
-                    <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                    </div>
-                    <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
-                    </div>
-                    <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+                    <h4>A l&apos;origine...</h4>
+                    <p>
+                      Le laboratoire a été fondé en 2019 et s&apos;est imposé comme un leader du marché 
+                      béninois dans la fourniture services d&apos;acquisition de données géographiques 
+                      (SIG), d&apos;inspections industrielles et d&apos;imagerie aérienne en utilisant des drones et 
+                      intégrant l&apos;intelligence artificielle à la robotiques pour répondre aux besoins les 
+                      plus divers de ses clients.
+                    </p>
+
+                    <h4>Collaboration...</h4>
+                    <p>
+                      Nous travaillons en étroite collaboration avec des 
+                      partenaires du secteur public et privé pour créer des solutions adaptées à leurs 
+                      besoins spécifiques en matière de collecte de données géospatiales.
+                    </p>
+
+                    <h4>Notre joie...</h4>
+                    <p>
+                      Fier de 
+                      pouvoir aider nos clients à améliorer leur prise de décision et à optimiser leur 
+                      gestion des ressources naturelles, nous sommes impatients de collaborer avec 
+                      vous pour créer des solutions sur mesure pour répondre à vos besoins spécifiques 
+                      en matière de collecte de données géospatiales.
+                    </p>
     
                   </div>
-                  {/* <!-- End Tab 1 Content --> */}
     
                   <div className="tab-pane fade show" id="tab2">
     
-                    <p className="fst-italic">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-                    </div>
-                    <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                    </div>
-                    <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
-                    </div>
-                    <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+                    <p>
+                      Créer de la valeur pour l&apos;ensemble des parties prenantes impliquées 
+                      dans notre activité, à travers la prestation de services de haute qualité et 
+                      sûrs, ainsi que l&apos;exploration de nouvelles solutions pour l&apos;industrie.
+                    </p>
     
                   </div>
-                  {/* <!-- End Tab 2 Content --> */}
     
                   <div className="tab-pane fade show" id="tab3">
     
-                    <p className="fst-italic">Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
-                    </div>
-                    <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Incidunt non veritatis illum ea ut nisi</h4>
-                    </div>
-                    <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
-    
-                    <div className="d-flex align-items-center mt-4">
-                      <i className="bi bi-check2"></i>
-                      <h4>Omnis ab quia nemo dignissimos rem eum quos..</h4>
-                    </div>
-                    <p>Eius alias aut cupiditate. Dolor voluptates animi ut blanditiis quos nam. Magnam officia aut ut alias quo explicabo ullam esse. Sunt magnam et dolorem eaque magnam odit enim quaerat. Vero error error voluptatem eum.</p>
+                    <p>
+                      Nous visons à atteindre un haut niveau d&apos;excellence dans notre 
+                      domaine, en utilisant des technologies innovantes pour offrir des 
+                      services de qualité en matière d&apos;inspection visuelle et de surveillance 
+                      aérienne en Afrique.
+
+                    </p>
     
                   </div>
-                  {/* <!-- End Tab 3 Content --> */}
     
                 </div>
     

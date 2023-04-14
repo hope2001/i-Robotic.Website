@@ -10,43 +10,47 @@ function Footer() {
 
                         <div className="col-lg-3 col-md-6">
                             <div className="footer-info">
-                                <h3>HeroBiz</h3>
+                                <h3>I-Robitics</h3>
                                 <p>
-                                    A108 Adam Street <br/>
-                                        NY 535022, USA<br/><br/>
-                                            <strong>Phone:</strong> +1 5589 55488 55<br/>
-                                                <strong>Email:</strong> info@example.com<br/>
+                                    Fidjrossè<br/>
+                                        Cotonou, Bénin<br/><br/>
+                                            <strong>Tél.:</strong> +229 99 29 81 81<br/>
+                                                <strong>E-mail:</strong> support@irobitics.store<br/>
                                                 </p>
                                             </div>
                                         </div>
 
                                             <div className="col-lg-2 col-md-6 footer-links">
-                                                <h4>Useful Links</h4>
+                                                <h4>Liens utiles</h4>
                                                 <ul>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/about">Qui sommes-nous ?</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Que faisons-nous ?</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/blog">Nos derniers articles</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/contact">Prendre Contact</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Conditions d&apos;utilisation</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Politique de confidentialité</a></li>
                                                 </ul>
                                             </div>
 
                                             <div className="col-lg-3 col-md-6 footer-links">
-                                                <h4>Our Services</h4>
+                                                <h4>Nos Services</h4>
                                                 <ul>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Graphic Design</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Fabrication de drones</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Logiciels d&apos;imagerie</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Cartographie numérique</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Analyse géospatiale</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Visualisation de données</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Géodésie</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Topographie</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Les inspections</a></li>
                                                 </ul>
                                             </div>
 
                                             <div className="col-lg-4 col-md-6 footer-newsletter">
-                                                <h4>Our Newsletter</h4>
-                                                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                                                <h4>Notre Newsletter</h4>
+                                                <p>Ne manquez plus aucune information, abonnez-vous pour recevoir nos nouvelles offres en premier.</p>
                                                 <form action="" method="post">
-                                                    <input type="email" name="email"/><input type="submit" value="Subscribe"/>
+                                                    <input type="email" name="email"/><input type="submit" value="Je m'abonne"/>
                                                     </form>
 
                                                     </div>
@@ -60,10 +64,10 @@ function Footer() {
 
                                             <div className="d-flex flex-column align-items-center align-items-lg-start">
                                                 <div className="copyright">
-                                                    &copy; Copyright <strong><span>HeroBiz</span></strong>. All Rights Reserved
+                                                    &copy; Copyright <strong><span>I-Robotics</span></strong>. All Rights Reserved
                                                 </div>
                                                 <div className="credits">
-                                                    Designed by <a href="">Labourd</a>
+                                                    Designed by <a href="https://labourd.tech">Labourd</a>
                                                 </div>
                                             </div>
 

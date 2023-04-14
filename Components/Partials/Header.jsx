@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { RiHomeSmileFill, RiChatSmile3Line } from 'react-icons/ri';
 
 function Header() {
     return ( 
@@ -14,70 +15,17 @@ function Header() {
 
       <nav id="navbar" className="navbar">
         <ul>
-
-          <li className="dropdown"><Link href="#"><span>Accueil</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
-            <ul>
-              <li><Link href="index.html" className="active">Home 1 - index.html</Link></li>
-              <li><Link href="index-2.html">Home 2 - index-2.html</Link></li>
-              <li><Link href="index-3.html">Home 3 - index-3.html</Link></li>
-              <li><Link href="index-4.html">Home 4 - index-4.html</Link></li>
-            </ul>
-          </li>
-
-          <li><Link className="nav-link scrollto" href="index.html#about">A Propos</Link></li>
-          <li><Link className="nav-link scrollto" href="index.html#services">Services</Link></li>
-          {/* <li><Link className="nav-link scrollto" href="index.html#portfolio">Portfolio</Link></li> */}
-          <li><Link className="nav-link scrollto" href="index.html#team">Notre Equipe</Link></li>
-          {/* <li><Link href="blog.html">Blog</Link></li> */}
-          {/* <li className="dropdown megamenu"><Link href="#"><span>Mega Menu</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
-            <ul>
-              <li>
-                <Link href="#">Column 1 link 1</Link>
-                <Link href="#">Column 1 link 2</Link>
-                <Link href="#">Column 1 link 3</Link>
-              </li>
-              <li>
-                <Link href="#">Column 2 link 1</Link>
-                <Link href="#">Column 2 link 2</Link>
-                <Link href="#">Column 3 link 3</Link>
-              </li>
-              <li>
-                <Link href="#">Column 3 link 1</Link>
-                <Link href="#">Column 3 link 2</Link>
-                <Link href="#">Column 3 link 3</Link>
-              </li>
-              <li>
-                <Link href="#">Column 4 link 1</Link>
-                <Link href="#">Column 4 link 2</Link>
-                <Link href="#">Column 4 link 3</Link>
-              </li>
-            </ul>
-          </li> */}
-          {/* <li className="dropdown"><Link href="#"><span>Drop Down</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
-            <ul>
-              <li><Link href="#">Drop Down 1</Link></li>
-              <li className="dropdown"><Link href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
-                <ul>
-                  <li><Link href="#">Deep Drop Down 1</Link></li>
-                  <li><Link href="#">Deep Drop Down 2</Link></li>
-                  <li><Link href="#">Deep Drop Down 3</Link></li>
-                  <li><Link href="#">Deep Drop Down 4</Link></li>
-                  <li><Link href="#">Deep Drop Down 5</Link></li>
-                </ul>
-              </li>
-              <li><Link href="#">Drop Down 2</Link></li>
-              <li><Link href="#">Drop Down 3</Link></li>
-              <li><Link href="#">Drop Down 4</Link></li>
-            </ul>
-          </li> */}
-          {/* <li><Link className="nav-link scrollto" href="index.html#contact">Contacts</Link></li> */}
+          <li><Link className="nav-link" href="/"><RiHomeSmileFill style={{fontSize: '20px'}} /></Link></li>
+          <li><Link className="nav-link" href="/about">A Propos</Link></li>
+          <li><Link className="nav-link" href="/services">Services</Link></li>
+          <li><Link className="nav-link" href="/blog">Actualité</Link></li>
+          <li><Link className="nav-link" href="/appointment">Rendez-vous</Link></li>
         </ul>
         <i className="bi bi-list mobile-nav-toggle d-none"></i>
         
       </nav>
-      {/* <!-- .navbar --> */}
 
-      <Link className="btn-getstarted scrollto" href="index.html#contact">Contacts</Link>
+      <Link className="btn-getstarted" href="/contact" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px'}}>Prendre Contact <RiChatSmile3Line style={{fontSize: '20px'}} /></Link>
 
     </div>
   </header>

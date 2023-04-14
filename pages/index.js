@@ -19,13 +19,13 @@ export default function Home() {
     <Layout>
       <FeaturedServices/>
       <About/>
+      <Features/>
       <Client/>
       <CTA/>
       <OnFucus/>
-      <Features/>
       <ServicesSection/>
-      <Faq/>
-      <Team/>
+      {/* <Faq/> */}
+      {/* <Team/> */}
     </Layout>
   )
 }

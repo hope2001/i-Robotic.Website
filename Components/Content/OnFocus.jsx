@@ -8,21 +8,20 @@ function OnFucus() {
 
         <div className="row g-0">
           <div className="col-lg-6 video-play position-relative">
-            <Link href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox play-btn"></Link>
+            <Link href="/assets/img/extra/drone-anima.mp4" className="glightbox play-btn"></Link>
           </div>
           <div className="col-lg-6">
             <div className="content d-flex flex-column justify-content-center h-100">
-              <h3>Voluptatem dignissimos provident quasi corporis</h3>
+              <h3>Pourquoi choisir IROBOTICS Labs ?</h3>
               <p className="fst-italic">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua.
+                Plusieurs dizaines d&apos;entreprises et de structures gouvernementales nous font confiance...
               </p>
               <ul>
-                <li><i className="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                <li><i className="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                <li><i className="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                <li><i className="bi bi-check-circle"></i> Vous êtes au centre de notre politique de qualité service.</li>
+                <li><i className="bi bi-check-circle"></i> Notre fierté est de pouvoir mener au succès vos projets.</li>
+                <li><i className="bi bi-check-circle"></i> Nous nous portons guarrant de vos données. Nous mettons un point d&apos;honneur à conserver sous scellé vos données sensibles, quitte à les détruire sans trace sur votre demande express.</li>
               </ul>
-              <Link href="" className="read-more align-self-start"><span>Read More</span><i className="bi bi-arrow-right"></i></Link>
+              <Link href="/blog" className="read-more align-self-start"><span>En savoir plus</span><i className="bi bi-arrow-right"></i></Link>
             </div>
           </div>
         </div>

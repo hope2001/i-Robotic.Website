@@ -7,9 +7,9 @@ function CTA() {
         <div className="row g-5">
 
           <div className="col-lg-8 col-md-6 content d-flex flex-column justify-content-center order-last order-md-first">
-            <h3>Alias sunt quas <em>Cupiditate</em> oluptas hic minima</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a className="cta-btn align-self-start" href="#">Call To Action</a>
+            <h3>Nous assurons une prestation <em>complète</em> de votre projet</h3>
+            <p> De l&apos;étape initiale jusqu&apos;à la livraison finale. Nous proposons une solution globale  et intégrale qui englobe toutes les étapes nécessaires pour répondre à vos besoins.</p>
+            <a className="cta-btn align-self-start" href="/contact">Obtenir un devis</a>
           </div>
 
           <div className="col-lg-4 col-md-6 order-first order-md-last d-flex align-items-center">
