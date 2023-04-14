@@ -168,7 +168,7 @@ export default function App({ Component, pageProps }) {
    */
   const mobileNavToogle = document.querySelector('.mobile-nav-toggle');
   if (mobileNavToogle) {
-    alert('it enter')
+    // alert('it enter')
     mobileNavToogle.addEventListener('click', function(event) {
       event.preventDefault();
 
@@ -179,23 +179,23 @@ export default function App({ Component, pageProps }) {
     });
 
         /**
-    //  * Mobile nav toggle
-    //  */
-    //     const mobileNavShow = document.querySelector(".mobile-nav-show");
-    //     const mobileNavHide = document.querySelector(".mobile-nav-hide");
+     * Mobile nav toggle
+     */
+        const mobileNavShow = document.querySelector(".mobile-nav-show");
+        const mobileNavHide = document.querySelector(".mobile-nav-hide");
     
-    //     document.querySelectorAll(".mobile-nav-toggle").forEach((el) => {
-    //       el.addEventListener("click", function (event) {
-    //         event.preventDefault();
-    //         mobileNavToogle();
-    //       });
-    //     });
+        document.querySelectorAll(".mobile-nav-toggle").forEach((el) => {
+          el.addEventListener("click", function (event) {
+            event.preventDefault();
+            mobileNavToogle();
+          });
+        });
     
-    //     function mobileNavToogle() {
-    //       document.querySelector("body").classList.toggle("mobile-nav-active");
-    //       mobileNavShow.classList.toggle("d-none");
-    //       mobileNavHide.classList.toggle("d-none");
-    //     }
+        function mobileNavToogle() {
+          document.querySelector("body").classList.toggle("mobile-nav-active");
+          mobileNavShow.classList.toggle("d-none");
+          mobileNavHide.classList.toggle("d-none");
+        }
   }
 
   /**
