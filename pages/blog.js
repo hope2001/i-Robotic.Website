@@ -1,7 +1,11 @@
+import Layout from '@/Components/Layout/Layout'
 import React from 'react'
 
 export default function BlogPage() {
   return (
-    <div>blog</div>
+    <Layout pageTarget={"Blog"}>
+
+      <div>blog</div>
+    </Layout>
   )
 }

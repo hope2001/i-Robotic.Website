@@ -1,10 +1,16 @@
 import Link from "next/link";
 import { TbCertificate } from 'react-icons/tb';
+import ParticlesJS from "../Partials/Particles";
+// import ParticleBackground from "../Partials/PolyParticles";
 
 function Banner() {
-    return ( 
-        <section id="hero-animated" className="hero-animated d-flex align-items-center position-relative">
-          <div className="overlay position-absolute " ></div>
+    return ( <>
+    {/* <ParticleBackground/> */}
+        <section id="hero-animated" className="hero-animated d-flex align-items-center position-relative" >
+          <div className="overlay position-absolute ">
+      {/* <ParticlesJS/> */}
+
+          </div>
         <div className="container d-flex flex-column justify-content-center align-items-center text-center position-relative mt-3" data-aos="zoom-out">
           <img src="assets/img/hero1.png" className="img-fluid animated"/>
           {/* <img src="assets/img/hero-carousel/hero-carousel-3.svg" className="img-fluid animated"/> */}
@@ -16,6 +22,7 @@ function Banner() {
           </div>
         </div>
       </section>
+      </>
      );
 }
 

@@ -9,7 +9,7 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { RiHomeSmileFill, RiChatSmile3Line } from 'react-icons/ri';
 
 
-function Header() {
+function Header1() {
   const [showMenu, setShowMenu] = useState(false);
 
   const handleMenu = () => setShowMenu(!showMenu);
@@ -17,7 +17,7 @@ function Header() {
   return (
     <header id="header" className="header fixed-top sticky" data-scrollto-offset="0">
       <Container  className="d-flex align-items-center justify-content-between ">
-        <Navbar.Brand href="#" className=" logo d-flex align-items-center me-auto me-lg-0 scrollto">
+        <Navbar.Brand href="/" className=" logo d-flex align-items-center me-auto me-lg-0 scrollto">
         <img src="/assets/img/irobotic.png" className="d-xs-none" style={{  width:"150px", minHeight:"80px",filter:"saturate(0.1)" }} alt=""/>
         {/* <h1 className="fw-bold fs-lg-1 fs-sm-5 align-items-center my-auto d-md-none d-lg-none">I-ROBOTICS<span>.</span></h1> */}
         </Navbar.Brand>
@@ -34,10 +34,10 @@ function Header() {
             {/* <li><Nav.Link href="#about" className="nav-link scrollto">Home</Nav.Link></li> */}
 
             <li><Link className="nav-link " href="/"><RiHomeSmileFill style={{fontSize: '20px', margin:"0 6px"}} /> Accueil</Link></li>
-          <li><Link className="nav-link scrollto" href="#about">A Propos</Link></li>
-          <li><Link className="nav-link scrollto" href="#services">Services</Link></li>
-          <li><Link className="nav-link scrollto" href="#blog">Actualité</Link></li>
-          <li><Link className="nav-link scrollto" href="#appointment">Rendez-vous</Link></li>
+          <li><Link className="nav-link scrollto" href="/about">A Propos</Link></li>
+          <li><Link className="nav-link scrollto" href="/services">Services</Link></li>
+          <li><Link className="nav-link scrollto" href="/blog">Actualité</Link></li>
+          <li><Link className="nav-link scrollto" href="/appointment">Rendez-vous</Link></li>
 
             </ul>
           </Nav>
@@ -59,11 +59,11 @@ function Header() {
         <div className="offcanvas-body">
           <Nav className="flex-column navba">
 
-          <Link className="nav-link scrollto" href="#about">A Propos</Link>
-        <Link className="nav-link scrollto" href="#services">Services</Link>
-        <Link className="nav-link scrollto" href="#blog">Actualité</Link>
-        <Link className="nav-link scrollto" href="#appointment">Rendez-vous</Link>
-        <Link className="nav-link scrollto btn-getstarted" href="#blog">Contacts</Link>
+          <Link className="nav-link scrollto" href="/about">A Propos</Link>
+        <Link className="nav-link scrollto" href="/services">Services</Link>
+        <Link className="nav-link scrollto" href="/blog">Actualité</Link>
+        <Link className="nav-link scrollto" href="/appointment">Rendez-vous</Link>
+        <Link className="nav-link scrollto btn-getstarted" href="/blog">Contacts</Link>
             
           </Nav>
         </div>
@@ -72,5 +72,5 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header1;
 

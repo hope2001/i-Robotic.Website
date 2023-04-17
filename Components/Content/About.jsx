@@ -22,9 +22,9 @@ function About() {
     
                 {/* <!-- Tabs --> */}
                 <ul className="nav nav-pills mb-3">
-                  <li><a className="nav-link active" data-bs-toggle="pill" href="#tab1" style={{paddingLeft: '15px', paddingRight: '15px'}}>Histoire</a></li>
-                  <li><a className="nav-link" data-bs-toggle="pill" href="#tab2" style={{paddingLeft: '15px', paddingRight: '15px'}}>Mission</a></li>
-                  <li><a className="nav-link" data-bs-toggle="pill" href="#tab3" style={{paddingLeft: '15px', paddingRight: '15px'}}>Vision</a></li>
+                  <li><a className="nav-link active" data-bs-toggle="pill" href="#tab1" style={{paddingLeft: '15px', paddingRight: '15px', backgroundColor:"transparent", color:"gray"}}>Histoire</a></li>
+                  <li><a className="nav-link" data-bs-toggle="pill" href="#tab2" style={{paddingLeft: '15px', paddingRight: '15px', backgroundColor:"transparent", color:"gray"}}>Mission</a></li>
+                  <li><a className="nav-link" data-bs-toggle="pill" href="#tab3" style={{paddingLeft: '15px', paddingRight: '15px', backgroundColor:"transparent", color:"gray"}}>Vision</a></li>
                 </ul>
                 {/* <!-- End Tabs --> */}
     
