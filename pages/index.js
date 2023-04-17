@@ -12,6 +12,7 @@ import ServicesSection from '@/Components/Content/ServicesSection'
 import Faq from '@/Components/Content/Faq'
 import Team from '@/Components/Content/Team'
 import ParticlesJS from '@/Components/Partials/Particles'
+import Contact from '@/Components/Content/Contact'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -28,6 +29,7 @@ export default function Home() {
       <ServicesSection/>
       {/* <Faq/> */}
       {/* <Team/> */}
+      <Contact/>
     </Layout>
   )
 }

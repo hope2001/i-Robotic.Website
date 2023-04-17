@@ -37,14 +37,14 @@ function Header1() {
           <li><Link className="nav-link scrollto" href="/about">A Propos</Link></li>
           <li><Link className="nav-link scrollto" href="/services">Services</Link></li>
           <li><Link className="nav-link scrollto" href="/blog">Actualité</Link></li>
-          <li><Link className="nav-link scrollto" href="/appointment">Rendez-vous</Link></li>
+          {/* <li><Link className="nav-link scrollto" href="/appointment">Rendez-vous</Link></li> */}
 
             </ul>
           </Nav>
 
           <Nav className="ms-auto">
             {/* <Nav.Link href="#about" className="btn-getstarted scrollto">Contact</Nav.Link> */}
-            <Link className="btn-getstarted scrollto" href="/contact" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px'}}>Prendre Contact <RiChatSmile3Line style={{fontSize: '20px'}} /></Link>
+            <Link className="btn-getstarted scrollt" href="/contact" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px'}}>Prendre Contact <RiChatSmile3Line style={{fontSize: '20px'}} /></Link>
 
           </Nav>
         </Navbar.Collapse>
@@ -62,8 +62,8 @@ function Header1() {
           <Link className="nav-link scrollto" href="/about">A Propos</Link>
         <Link className="nav-link scrollto" href="/services">Services</Link>
         <Link className="nav-link scrollto" href="/blog">Actualité</Link>
-        <Link className="nav-link scrollto" href="/appointment">Rendez-vous</Link>
-        <Link className="nav-link scrollto btn-getstarted" href="/blog">Contacts</Link>
+        {/* <Link className="nav-link scrollto" href="/appointment">Rendez-vous</Link> */}
+        <Link className="nav-link scrollt btn-getstarted" href="/blog">Contacts</Link>
             
           </Nav>
         </div>
