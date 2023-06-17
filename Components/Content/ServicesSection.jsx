@@ -1,7 +1,7 @@
 function ServicesSection() {
     return ( 
         // <!-- ======= Services Section ======= -->
-    <section id="services" className="services">
+    <section id="blog" className="services">
       <div className="container" data-aos="fade-up">
 
         <div className="section-header">

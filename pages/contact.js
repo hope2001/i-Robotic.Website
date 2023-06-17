@@ -4,9 +4,9 @@ import React from 'react'
 
 export default function ContactPage() {
   return (
-    <Layout>
+    <Layout pageTarget={"Contact"}>
 
-      <div>contact</div>
+      {/* <div>contact</div> */}
       <Contact/>
     </Layout>
   )
