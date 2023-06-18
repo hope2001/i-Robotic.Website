@@ -48,9 +48,15 @@ try {
       </div>
 
       <div className="map">
+<<<<<<< HEAD
       {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7930.554650948296!2d2.3668775387780308!3d6.358138919429662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235687c53b1f23%3A0x5b51c02c96d4e7ac!2sFidjross%C3%A8%2C%20Cotonou!5e0!3m2!1sfr!2sbj!4v1681727746157!5m2!1sfr!2sbj" width="600" height="450" style="border:0;" allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7930.554650948296!2d2.3668775387780308!3d6.358138919429662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235687c53b1f23%3A0x5b51c02c96d4e7ac!2sFidjross%C3%A8%2C%20Cotonou!5e0!3m2!1sfr!2sbj!4v1681727746157!5m2!1sfr!2sbj" frameBorder="0" allowFullScreen></iframe>
         {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameBorder="0" allowFullScreen></iframe> */}
+=======
+      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7930.554650948296!2d2.3668775387780308!3d6.358138919429662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235687c53b1f23%3A0x5b51c02c96d4e7ac!2sFidjross%C3%A8%2C%20Cotonou!5e0!3m2!1sfr!2sbj!4v1681727746157!5m2!1sfr!2sbj" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7930.554650948296!2d2.3668775387780308!3d6.358138919429662!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235687c53b1f23%3A0x5b51c02c96d4e7ac!2sFidjross%C3%A8%2C%20Cotonou!5e0!3m2!1sfr!2sbj!4v1681727746157!5m2!1sfr!2sbj" frameborder="0" allowfullscreen></iframe>
+        {/* <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe> */}
+>>>>>>> 7f4542562fb86cce6e13fcee5693abbadb17ec5c
       </div>
       {/* <!-- End Google Maps --> */}
 
