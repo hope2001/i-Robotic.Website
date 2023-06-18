@@ -17,7 +17,9 @@ function Banner() {
           <h2>Bienvenue sur <span> I-ROBOTICS</span></h2>
           <p><b>Pionnier des solutions de drones:</b> technologie de pointe, livraison rapide & sécurité accrue.</p>
           <div className="d-flex">
-            <Link href="/services" className="btn-get-started" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px'}}>Nos Offres <TbCertificate style={{fontSize: '20px'}} /> </Link>
+            <Link href="/services" className="btn-get-started" style={{display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '5px'}}>Nos Offres 
+            <TbCertificate style={{fontSize: '20px'}} />
+             </Link>
             <Link href="https://www.youtube.com/watch?v=eG1kJk4nJyU" target="blank" className="glightbox btn-watch-video d-flex align-items-center"><i className="bi bi-play-circle"></i><span>Vidéo de présentation</span></Link>
           </div>
         </div>

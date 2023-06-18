@@ -3,6 +3,7 @@ import { SlGlobeAlt } from 'react-icons/sl';
 import { RxCube } from 'react-icons/rx';
 import { RiSearchEyeLine } from 'react-icons/ri';
 import { TbGeometry } from 'react-icons/tb';
+import Link from 'next/link';
 
 
 function Features() {
@@ -14,50 +15,50 @@ function Features() {
         <ul className="nav nav-tabs row gy-4 d-flex">
 
           <li className="nav-item col-6 col-md-4 col-lg-2">
-            <a className="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
+            <Link href="" className="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
               <MdOutlineImageSearch style={{color: 'rgba(0,0,0,.3)', fontSize: '50px'}} />
               <h4 style={{textAlign: 'center'}}>Imagerie</h4>
-            </a>
+            </Link>
           </li>
           {/* <!-- End Tab 1 Nav --> */}
 
           <li className="nav-item col-6 col-md-4 col-lg-2">
-            <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+            <Link href="" className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
               <MdMap style={{color: 'rgba(0, 0, 0, .3)', fontSize: '50px'}} />
               <h4>Cartographie</h4>
-            </a>
+            </Link>
           </li>
           {/* <!-- End Tab 2 Nav --> */}
 
           <li className="nav-item col-6 col-md-4 col-lg-2">
-            <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+            <Link href="" className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
               <RxCube style={{color: 'rgba(0,0,0,.3)', fontSize: '50px'}} />
               <h4>Géospatiale</h4>
-            </a>
+            </Link>
           </li>
           {/* <!-- End Tab 3 Nav --> */}
 
           <li className="nav-item col-6 col-md-4 col-lg-2">
-            <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+            <Link href="" className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
               <SlGlobeAlt style={{color: 'rgba(0,0,0,.3)', fontSize: '50px'}} />
               <h4>Géodésie</h4>
-            </a>
+            </Link>
           </li>
           {/* <!-- End Tab 4 Nav --> */}
 
           <li className="nav-item col-6 col-md-4 col-lg-2">
-            <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+            <Link href="" className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
               <TbGeometry style={{color: 'rgba(0,0,0,.3)', fontSize: '50px'}} />
               <h4>Topographie</h4>
-            </a>
+            </Link>
           </li>
           {/* <!-- End Tab 5 Nav --> */}
 
           <li className="nav-item col-6 col-md-4 col-lg-2">
-            <a className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+            <Link href="" className="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
               <RiSearchEyeLine style={{color: 'rgba(0,0,0,.3)', fontSize: '50px'}} />
               <h4>CVI</h4>
-            </a>
+            </Link>
           </li>
           {/* <!-- End Tab 6 Nav --> */}
 

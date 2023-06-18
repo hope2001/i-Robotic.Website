@@ -22,7 +22,7 @@ function Client() {
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
-      slidesPerView={7}
+      slidesPerView={3}
     //   navigation
       pagination={{ clickable: true }}
     //   scrollbar={{ draggable: true }}
@@ -30,9 +30,9 @@ function Client() {
       onSlideChange={() => console.log('slide change')}
     >
                 <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/bollore.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/hbi.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                {/* <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/hbi.png" className="img-fluid" alt=""/></div></SwiperSlide>
                 <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/normat.png" className="img-fluid" alt=""/></div></SwiperSlide>
-                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/labourd.png" className="img-fluid" alt=""/></div></SwiperSlide>
+                <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/labourd.png" className="img-fluid" alt=""/></div></SwiperSlide> */}
                 <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/siraga.png" className="img-fluid" alt=""/></div></SwiperSlide>
                 <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/uac.png" className="img-fluid" alt=""/></div></SwiperSlide>
                 <SwiperSlide><div className="swiper-slide"><img src="assets/img/clients/sobebra.png" className="img-fluid" alt=""/></div></SwiperSlide>

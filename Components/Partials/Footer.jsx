@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer() {
     return (
         // <!-- ======= Footer ======= -->
@@ -23,26 +25,26 @@ function Footer() {
                                             <div className="col-lg-2 col-md-6 footer-links">
                                                 <h4>Liens utiles</h4>
                                                 <ul>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/about">Qui sommes-nous ?</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Que faisons-nous ?</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/blog">Nos derniers articles</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/contact">Prendre Contact</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Conditions d&apos;utilisation</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="#">Politique de confidentialité</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/about">Qui sommes-nous ?</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Que faisons-nous ?</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/blog">Nos derniers articles</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/contact">Prendre Contact</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="#">Conditions d&apos;utilisation</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="#">Politique de confidentialité</Link></li>
                                                 </ul>
                                             </div>
 
                                             <div className="col-lg-3 col-md-6 footer-links">
                                                 <h4>Nos Services</h4>
                                                 <ul>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Fabrication de drones</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Logiciels d&apos;imagerie</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Cartographie numérique</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Analyse géospatiale</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Visualisation de données</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Géodésie</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Topographie</a></li>
-                                                    <li><i className="bi bi-chevron-right"></i> <a href="/services">Les inspections</a></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Fabrication de drones</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Logiciels d&apos;imagerie</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Cartographie numérique</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Analyse géospatiale</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Visualisation de données</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Géodésie</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Topographie</Link></li>
+                                                    <li><i className="bi bi-chevron-right"></i> <Link href="/services">Les inspections</Link></li>
                                                 </ul>
                                             </div>
 
@@ -67,16 +69,16 @@ function Footer() {
                                                     &copy; Copyright <strong><span>I-Robotics</span></strong>. All Rights Reserved
                                                 </div>
                                                 <div className="credits">
-                                                    Designed by <a href="https://labourd.tech">Labourd</a>
+                                                    Designed by <Link href="https://labourd.tech">Labourd</Link>
                                                 </div>
                                             </div>
 
                                             <div className="social-links order-first order-lg-last mb-3 mb-lg-0">
-                                                <a href="#" className="twitter"><i className="bi bi-twitter"></i></a>
-                                                <a href="#" className="facebook"><i className="bi bi-facebook"></i></a>
-                                                <a href="#" className="instagram"><i className="bi bi-instagram"></i></a>
-                                                <a href="#" className="google-plus"><i className="bi bi-skype"></i></a>
-                                                <a href="#" className="linkedin"><i className="bi bi-linkedin"></i></a>
+                                                <Link href="#" className="twitter"><i className="bi bi-twitter"></i></Link>
+                                                <Link href="#" className="facebook"><i className="bi bi-facebook"></i></Link>
+                                                <Link href="#" className="instagram"><i className="bi bi-instagram"></i></Link>
+                                                <Link href="#" className="google-plus"><i className="bi bi-skype"></i></Link>
+                                                <Link href="#" className="linkedin"><i className="bi bi-linkedin"></i></Link>
                                             </div>
 
                                         </div>
@@ -85,7 +87,7 @@ function Footer() {
                                 </footer>
                                 
 
-                                <a href="#" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>
+                                <Link href="#" className="scroll-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></Link>
                                 </>
                                 );
 }

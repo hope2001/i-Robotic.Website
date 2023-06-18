@@ -35,9 +35,30 @@ function Header() {
 
             <li><Link className="nav-link " href="/"><RiHomeSmileFill style={{fontSize: '20px', margin:"0 6px"}} /> Accueil</Link></li>
           <li><Link className="nav-link scrollto" href="#about">A Propos</Link></li>
-          <li><Link className="nav-link scrollto" href="#services">Services</Link></li>
-          <li><Link className="nav-link scrollto" href="#blog">Actualité</Link></li>
+          {/* <li><Link className="nav-link scrollto" href="#services">Services</Link></li> */}
+          {/* <li><Link className="nav-link scrollto" href="#blog">Actualité</Link></li> */}
           {/* <li><Link className="nav-link scrollto" href="#appointment">Rendez-vous</Link></li> */}
+          <li className="dropdown"><Link className="nav-link scrollto" href="#services"><span> Services</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
+            <ul>
+              <li><Link href="#features"> Architecture, Ingénierie, construction</Link></li>
+              <li><Link href="#features"> Gestion Technique des batiments</Link></li>
+              <li><Link href="#features"> Energies et environement</Link></li>
+              <li><Link href="#features"> Agriculture</Link></li>
+              <li><Link href="#features"> Transport et logistique</Link></li>
+              {/* <li className="dropdown"><Link href="#"><span>Deep Drop Down</span> <i className="bi bi-chevron-down dropdown-indicator"></i></Link>
+                <ul>
+                  <li><Link href="#">Deep Drop Down 1</Link></li>
+                  <li><Link href="#">Deep Drop Down 2</Link></li>
+                  <li><Link href="#">Deep Drop Down 3</Link></li>
+                  <li><Link href="#">Deep Drop Down 4</Link></li>
+                  <li><Link href="#">Deep Drop Down 5</Link></li>
+                </ul>
+              </li>
+              <li><Link href="#">Drop Down 2</Link></li>
+              <li><Link href="#">Drop Down 3</Link></li>
+              <li><Link href="#">Drop Down 4</Link></li> */}
+            </ul>
+          </li>
 
             </ul>
           </Nav>

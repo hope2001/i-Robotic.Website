@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 function ServicesSection() {
     return ( 
         // <!-- ======= Services Section ======= -->
-    <section id="services" className="services">
+    <section id="blog" className="services">
       <div className="container" data-aos="fade-up">
 
         <div className="section-header">
@@ -20,10 +22,10 @@ function ServicesSection() {
                 <div className="icon">
                   <i className="bi bi-broadcast"></i>
                 </div>
-                <a href="/blog" className="stretched-link">
+                <Link href="/blog" className="stretched-link">
                   <h3>Partenariat avec la HBI</h3>
-                </a>
-                <p>La Holding Bourjon Investment a su voir en nous un partenaire de confiance. En effet suite à quelques prestation de haut...</p>
+                </Link>
+                <p>La Holding Bourjon Investment Link su voir en nous un partenaire de confiance. En effet suite à quelques prestation de haut...</p>
               </div>
             </div>
           </div>
@@ -38,9 +40,9 @@ function ServicesSection() {
                 <div className="icon">
                   <i className="bi bi-broadcast"></i>
                 </div>
-                <a href="/blog" className="stretched-link">
+                <Link href="/blog" className="stretched-link">
                   <h3>Nouvelle extension</h3>
-                </a>
+                </Link>
                 <p>Pour votre plus grande aise, INPECTIONS ROBOTICS LABS ouvre bientôt ses portes à Fidrjossè dans la ville de Cotonou au Bé...</p>
               </div>
             </div>
@@ -56,9 +58,9 @@ function ServicesSection() {
                 <div className="icon">
                   <i className="bi bi-broadcast"></i>
                 </div>
-                <a href="/blog" className="stretched-link">
+                <Link href="/blog" className="stretched-link">
                   <h3>Aquisition de matériel</h3>
-                </a>
+                </Link>
                 <p>Vous l&apos;attendiez-tous. Et bien il est là ! Le nouveau model de caméra pour drone ultra précis qui est capable de voir...</p>
               </div>
             </div>
